@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>Predicted Class Index: {{ predicted_class_index }}</p>
+    <p>Confidence Score: {{ confidence_score }}</p>
+    <a href="{% url 'image_upload' %}">Upload another image</a>
+</body>
+</html>
